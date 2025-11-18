@@ -39,10 +39,6 @@
       "target": "api::author.author",
       "inversedBy": "articles"
     },
-    "content": {
-      "type": "richtext",
-      "required": true
-    },
     "category": {
       "type": "relation",
       "relation": "manyToOne",
